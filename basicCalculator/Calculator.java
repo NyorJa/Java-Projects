@@ -25,6 +25,9 @@ public class Calculator {
     public int modulo(int num1, int num2) {
         return (num1 % num2);
     }
+    public double power(int num1, int num2) {
+        return (Math.pow(num1,num2));
+    }
     public static void main(String[] args) {
 
         int num1, num2;
@@ -41,6 +44,7 @@ public class Calculator {
         System.out.println("Multiplication of " + num1 + " & " + num2 + " = " + myCalculator.multiply(num1, num2));
         System.out.println("Divison of " + num1 + " & " + num2 + " = " + myCalculator.divide(num1, num2));
         System.out.println("Modulo of " + num1 + " & " + num2 + " = " + myCalculator.modulo(num1, num2));
+        System.out.println("power of " + num1 + "^" + num2 + " = " + myCalculator.power(num1, num2));
 
         input.close();
     }
