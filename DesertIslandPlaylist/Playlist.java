@@ -11,6 +11,7 @@ public class Playlist {
         desertIslandPlaylist.add("Eastside");
         desertIslandPlaylist.add("Promises");
         desertIslandPlaylist.add("Body");
+        desertIslandPlaylist.add("Bad boy");
 
         System.out.println(desertIslandPlaylist);
         System.out.println("Number of songs available is " + desertIslandPlaylist.size());
